@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.brightandshiny.camtest"
+        version   = "0.1">
+    <name>MiaListo</name>
+ 
+    <description>
+        CamTest
+    </description>
+ 
+    <author href="http://www.brightandshiny.com" email="info@brightandshiny.com">
+        Bright &amp; Shiny
+    </author>
+ 
+<!-- to enable individual permissions use the following examples -->
+<feature name="http://api.phonegap.com/1.0/battery"/>
+<feature name="http://api.phonegap.com/1.0/camera"/>
+<feature name="http://api.phonegap.com/1.0/contacts"/>
+<feature name="http://api.phonegap.com/1.0/file"/>
+<feature name="http://api.phonegap.com/1.0/geolocation"/>
+<feature name="http://api.phonegap.com/1.0/media"/>
+<feature name="http://api.phonegap.com/1.0/network"/>
+<feature name="http://api.phonegap.com/1.0/notification"/>
+ 
+    <access origin="*" />
+ 
+    <preference name="phonegap-version" value="2.3.0" />
+    <preference name="orientation"      value="default" />
+    <preference name="target-device"    value="universal" />
+    <preference name="fullscreen"       value="false" />
+ 
+    <icon src="icon.png" />
+    <icon src="resources/icons/android/icon-36-ldpi.png"   gap:platform="android"    gap:density="ldpi" />
+    <icon src="resources/icons/android/icon-48-mdpi.png"   gap:platform="android"    gap:density="mdpi" />
+    <icon src="resources/icons/android/icon-72-hdpi.png"   gap:platform="android"    gap:density="hdpi" />
+    <icon src="resources/icons/android/icon-96-xhdpi.png"  gap:platform="android"    gap:density="xhdpi" />
+    <icon src="resources/icons/ios/icon.png"               gap:platform="ios"        width="57" height="57" />
+    <icon src="resources/icons/ios/icon-72.png"            gap:platform="ios"        width="72" height="72" />
+    <icon src="resources/icons/ios/icon@2x.png"            gap:platform="ios"        width="114" height="114" />
+    <icon src="resources/icons/ios/icon-72@2x.png"         gap:platform="ios"        width="144" height="144" />
+ 
+    <gap:splash src="resources/startup/android/screen-ldpi-portrait.png"   gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="resources/startup/android/screen-mdpi-portrait.png"   gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="resources/startup/android/screen-hdpi-portrait.png"   gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="resources/startup/android/screen-xhdpi-portrait.png"  gap:platform="android" gap:density="xhdpi" />
+    <gap:splash src="resources/startup/ios/Default~iphone.png"             gap:platform="ios"     width="320" height="480" />
+    <gap:splash src="resources/startup/ios/Default@2x~iphone.png"          gap:platform="ios"     width="640" height="960" />
+    <gap:splash src="resources/startup/ios/Default-Portrait~ipad.png"      gap:platform="ios"     width="768" height="1024" />
+    <gap:splash src="resources/startup/ios/Default-Landscape~ipad.png"     gap:platform="ios"     width="1024" height="768" />
+    <gap:splash src="resources/startup/ios/Default-Portrait@2x~ipad.png"   gap:platform="ios"     width="1536" height="2008" />
+    <gap:splash src="resources/startup/ios/Default-Landscape@2x~ipad.png"  gap:platform="ios"     width="2048" height="1496" />
+</widget>
